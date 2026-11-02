@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int ageYears, months, weeks, days;
+    cout << "Enter age in years: ";
+    cin >> ageYears;
+    months = ageYears * 12;
+    weeks = ageYears * 52;
+    days = ageYears * 365;
+    cout << "Months: " << months << endl;
+    cout << "Weeks: " << weeks << endl;
+    cout << "Days: " << days;
+    return 0;
+}
