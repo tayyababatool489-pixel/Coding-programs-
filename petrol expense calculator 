@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+    float distance, avg, price, petrolConsumed, totalCost;
+    cout << "Enter distance travelled (km): ";
+    cin >> distance;
+    cout << "Enter average km per litre: ";
+    cin >> avg;
+    cout << "Enter petrol price per litre: ";
+    cin >> price;
+    petrolConsumed = distance / avg;
+    totalCost = petrolConsumed * price;
+    cout << "Petrol Consumed = " << petrolConsumed << " litres" << endl;
+    cout << "Total Fuel Cost = Rs. " << totalCost;
+    return 0;
+}
