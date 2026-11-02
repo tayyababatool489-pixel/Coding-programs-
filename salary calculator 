@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main() {
+    float basic, hra, medical, gross;
+    cout << "Enter Basic Salary, HRA, Medical Allowance: ";
+    cin >> basic >> hra >> medical;
+    gross = basic + hra + medical;
+    cout << "Gross Salary = Rs. " << gross;
+    return 0;
+}
