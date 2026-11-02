@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() {
+    float purchasePrice, sellingPrice, qty, totalCost, totalRevenue, profit;
+    cout << "Enter purchase price: ";
+    cin >> purchasePrice;
+    cout << "Enter selling price: ";
+    cin >> sellingPrice;
+    cout << "Enter quantity sold: ";
+    cin >> qty;
+    totalCost = purchasePrice * qty;
+    totalRevenue = sellingPrice * qty;
+    profit = totalRevenue - totalCost;
+    cout << "Total Purchase Cost = Rs. " << totalCost << endl;
+    cout << "Total Sales Revenue = Rs. " << totalRevenue << endl;
+    cout << "Profit/Loss = Rs. " << profit;
+    return 0;
+}
