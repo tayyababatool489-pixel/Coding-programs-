@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+    float units, pricePerUnit, total;
+    cout << "Enter units consumed: ";
+    cin >> units;
+    cout << "Enter price per unit: ";
+    cin >> pricePerUnit;
+    total = units * pricePerUnit;
+    cout << "Total Electricity Bill = Rs. " << total;
+    return 0;
+}
